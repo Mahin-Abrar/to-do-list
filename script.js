@@ -5,10 +5,11 @@ let list=[];
 
 // click eventlister to activate push()
 button1.addEventListener("click",function(){
-    if(addedTask.value===""){
+    let result=addedTask.value.trim()
+    if(result===""){
         alert("faka ken?");
     }else {
-    list.push(addedTask.value);
+    list.push(result);
     addedTask.value="";
     review(); 
      }
