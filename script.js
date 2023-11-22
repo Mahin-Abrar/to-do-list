@@ -5,9 +5,13 @@ let list=[];
 
 // click eventlister to activate push()
 button1.addEventListener("click",function(){
+    if(addedTask.value===""){
+        alert("faka ken?");
+    }else {
     list.push(addedTask.value);
     addedTask.value="";
     review(); 
+     }
  });
 //creating the list and adding the delete button's function
 function review(){
