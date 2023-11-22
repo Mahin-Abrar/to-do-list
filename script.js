@@ -13,7 +13,7 @@ button1.addEventListener("click",function(){
 function review(){
     let newOrder="";    // taken from stack overflow
    for (var i=0;i<list.length;i++){
-    newOrder+="<li>"+list[i]+"<button class='cross'>"+"X"+"</button>"+"</li>";
+    newOrder+="<li>"+list[i]+"<button class='cross'> "+" X "+" </button> "+"</li>";
    }
    let output = document.getElementById("output");
     output.innerHTML = newOrder;
