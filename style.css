@@ -2,4 +2,6 @@
     --bs-gutter-x: 5.5rem;
 }
    
-
+body{
+    background-color: aqua;
+}
